@@ -14,6 +14,7 @@
 		4FB95E841D2A6D3A00B1AC94 /* KZExcelForm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FB95E821D2A6D3A00B1AC94 /* KZExcelForm.xcdatamodeld */; };
 		4FB95E861D2A6D3A00B1AC94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB95E851D2A6D3A00B1AC94 /* Assets.xcassets */; };
 		4FB95E891D2A6D3A00B1AC94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FB95E871D2A6D3A00B1AC94 /* LaunchScreen.storyboard */; };
+		4FB95E931D2A6D5500B1AC94 /* KZFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB95E921D2A6D5500B1AC94 /* KZFormView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		4FB95E851D2A6D3A00B1AC94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB95E881D2A6D3A00B1AC94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FB95E8A1D2A6D3A00B1AC94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB95E911D2A6D5500B1AC94 /* KZFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZFormView.h; sourceTree = "<group>"; };
+		4FB95E921D2A6D5500B1AC94 /* KZFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZFormView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 				4FB95E7A1D2A6D3A00B1AC94 /* AppDelegate.m */,
 				4FB95E7C1D2A6D3A00B1AC94 /* ViewController.h */,
 				4FB95E7D1D2A6D3A00B1AC94 /* ViewController.m */,
+				4FB95E901D2A6D5500B1AC94 /* KZFormView */,
 				4FB95E7F1D2A6D3A00B1AC94 /* Main.storyboard */,
 				4FB95E851D2A6D3A00B1AC94 /* Assets.xcassets */,
 				4FB95E871D2A6D3A00B1AC94 /* LaunchScreen.storyboard */,
@@ -80,6 +84,15 @@
 				4FB95E771D2A6D3A00B1AC94 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FB95E901D2A6D5500B1AC94 /* KZFormView */ = {
+			isa = PBXGroup;
+			children = (
+				4FB95E911D2A6D5500B1AC94 /* KZFormView.h */,
+				4FB95E921D2A6D5500B1AC94 /* KZFormView.m */,
+			);
+			path = KZFormView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB95E931D2A6D5500B1AC94 /* KZFormView.m in Sources */,
 				4FB95E7E1D2A6D3A00B1AC94 /* ViewController.m in Sources */,
 				4FB95E7B1D2A6D3A00B1AC94 /* AppDelegate.m in Sources */,
 				4FB95E841D2A6D3A00B1AC94 /* KZExcelForm.xcdatamodeld in Sources */,
